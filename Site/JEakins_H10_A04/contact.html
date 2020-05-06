@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="images/SiteIcon.png" />
+    <link rel="stylesheet" type="text/css" href="styles/site.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>The Place for Wizarding Needs</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div>
+          <img class="logo" src="images/SiteWizard.jpg" alt="P.W.N Logo" />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="tower.html">Courses</a></li>
+            <li class="notMobile"><a href="hours.html">Hours</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="notMobile"><a href="staff.html">Staff</a></li>
+            <li class="notMobile"><a href="testimonials.html">Testimonials</a></li>
+            <li class="notMobile"><a href="link.html">Links</a></li>
+          </ul>
+        </nav>
+      </header>
+      <h1>Inquiries:</h1>
+      <form method="POST" name="contactForm" id="contactForm">
+        <br />
+        <label class="label" for="name"> Name: </label>
+        <input type="text" name="name" id="name" placeholder="Full Name" />
+        <br /><br />
+        <label class="label" for="email"> Email: </label>
+        <input type="email" name="email" id="email" placeholder="x@x.x" />
+        <br />
+        <fieldset>
+          <legend>Complaints</legend>
+          <input type="radio" name="complaints" id="broke" />
+          <label class="label" for="broke">Broken Merchandise</label>
+          <br /><br />
+          <input type="radio" name="complaints" id="cursed" />
+          <label class="label" for="cursed">Cursed by an Item</label>
+          <img
+            id="right"
+            src="images/PieChart.png"
+            alt="Good Chart"
+            height="157"
+            width="200"
+          />
+          <br /><br />
+          <input type="radio" name="complaints" id="familiar" />
+          <label class="label" for="familiar">Familiar Doesn't Accept Me</label>
+          <br /><br />
+          <input type="radio" name="complaints" id="toogood" />
+          <label class="label" for="toogood">Experience was too Good</label>
+        </fieldset>
+        <fieldset>
+          <legend>Questions</legend>
+          <input type="checkbox" name="expensive" id="expensive" />
+          <label class="label" for="expensive">What's Your Deal Today?</label>
+          <br />
+          <input type="checkbox" name="ad" id="ad" />
+          <label class="label" for="ad">How do I get a Familiar?</label>
+          <br />
+          <input type="checkbox" name="place" id="place" />
+          <label class="label" for="place">Where is PWN?</label>
+          <br />
+          <input type="checkbox" name="museum" id="museum" />
+          <label class="label" for="museum"
+            >How can I Contribute to the Museum?</label
+          >
+        </fieldset>
+        <fieldset>
+          <legend>Other</legend>
+          <textarea cols="50" rows="4" id="other" name="other"> </textarea>
+        </fieldset>
+        <input type="button" name="submit" id="submit" value="Submit" />
+        <br />
+        <p id="sneak">
+          *On press of the Submit button, we are allowed to use the email given
+          to send advertisements and updates.
+        </p>
+      </form>
+
+      <h1>Contact:</h1>
+      <ul>
+        <li>
+          Portal: If entering through portals, please enter through the portal
+          room on floor 3.
+        </li>
+        <li class="notMobile">Phone:+1-613-555-0190</li>
+        <li class="onlyMobile">Phone:<a href="tel:+1-613-555-0190">+1-613-555-0190</a></li>
+        <li>
+          Email:<a href="mailto:1923369@placeofwizardneeds.ca"
+            >1923369@cegep-heritage.qc.ca</a
+          >
+        </li>
+      </ul>
+      <p>
+        When calling or emailing, permission will be needed to send a portal to
+        your location, when giving permission make sure to have a wide open
+        area.
+      </p>
+      <footer>
+        <p>
+          &copy; Copyright 2019, PWN, The Place of Wizardly Needs
+        </p>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="tower.html">Courses</a></li>
+            <li class="notMobile"><a href="hours.html">Hours</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="notMobile"><a href="staff.html">Staff</a></li>
+            <li class="notMobile"><a href="testimonials.html">Testimonials</a></li>
+            <li class="notMobile"><a href="link.html">Links</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>
